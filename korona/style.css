@@ -1,0 +1,110 @@
+:root{
+    --hatter: grey;
+    --menu: black;
+    --feher: white;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    
+
+}
+
+#menuszalag{
+    width: 100%;
+    min-height: 50px;
+    background-color: var(--menu);
+    color: white;
+    text-align: center;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#menuszalag ul{
+    display: inline;
+
+}
+
+
+#menuszalag ul li{
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+}
+
+#tartalom{
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    background-color: var(--hatter);
+    
+}
+
+h1{
+margin: 0;
+}
+
+#elso{
+    margin: 2cm;
+    width: 80%;
+    
+}
+
+
+#masodik{
+    margin: 2cm;
+    
+}
+
+#ize{
+    color: black;
+}
+
+#cucc{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+
+#menuszalag li:hover{
+    background-color: rgb(119, 117, 117);
+    font-size: 25px;
+}
+
+
+#menuszalag li{
+    transition: 0.5s;
+}
+
+#ize2{
+    background-color: #6cdbeb;
+}
+
+#body{
+    background: linear-gradient(to right top, #ffffff, #6cdbeb);
+}
+
+#body2{
+    background: linear-gradient(to right top, #ffffff, #6cdbeb);
+}
+
+#kuni{
+    width: 20%;
+}
+
+#jumpscare{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
